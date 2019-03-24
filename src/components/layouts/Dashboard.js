@@ -1,8 +1,17 @@
 import React from "react";
+import Sidebar from "./Sidebar";
+import Client from "../client/Client";
 
 const Dashboard = () => (
   <div>
-    <h2>Dashboard</h2>
+    <div className="row">
+      <div className="col-md-10">
+        <Client />
+      </div>
+      <div className="col-md-2">
+        <Sidebar />
+      </div>
+    </div>
   </div>
 );
 
