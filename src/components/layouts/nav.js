@@ -7,7 +7,7 @@ class Nav extends Component {
       <div>
         <nav className="navbar navbar-expand-md navbar-dark bg-primary mb-4">
           <div className="container">
-            <Link to="/" className="navbar-brand">
+            <Link to="/" className="navbar-brand c">
               ClintPanel
             </Link>
             <button
@@ -21,7 +21,7 @@ class Nav extends Component {
             <div className="collapse navbar-collapse" id="navbarMain">
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
-                  <Link to="/dashboard" className="nav-link">
+                  <Link to="/dashboard" className="nav-link d">
                     Dashboard
                   </Link>
                 </li>

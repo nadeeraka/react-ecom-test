@@ -1,0 +1,9 @@
+.d:hover {
+  color: yellow !important;
+}
+.c:hover {
+  color: yellow !important;
+}
+.d {
+  padding-right: 50px !important;
+}
